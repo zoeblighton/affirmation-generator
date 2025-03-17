@@ -13,49 +13,56 @@
     <title>AI Affirmation generator</title>
   </head>
   <body>
-    <header>
-      <h1>
-        <span class="title-start">Welcome to the</span>
-        <div class="title-main">Daily Affirmation</div>
-        <span class="title-end">Generator</span> <br /><span class="title-emoji"
-          >✨✨✨</span
+    <div class="container">
+      <header>
+        <h1>
+          <span class="title-start">Welcome to the</span>
+          <div class="title-main">Daily Affirmation</div>
+          <span class="title-end">Generator</span> <br /><span
+            class="title-emoji"
+            >✨✨✨</span
+          >
+        </h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic or keywords here"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="output">
+          Relax and enjoy life. <br />
+          Whatever I need to know is revealed to me at exactly the right time.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/zoeblighton/" target="_blank"
+          >Zoe Blighton</a
         >
-      </h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic or keywords here"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Relax and enjoy life. <br />
-        Whatever I need to know is revealed to me at exactly the right time.
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/zoeblighton/" target="_blank">Zoe Blighton</a>
-      and is open-sourced on
-      <a
-        href="https://github.com/zoeblighton/affirmation-generator"
-        target="_blank"
-      >
-        GitHub</a
-      >
-      and is hosted on
-      <a
-        href="https://ai-daily-affirmation-generator.netlify.app/"
-        target="_blank"
-      >
-        Netlify</a
-      >.
-    </footer>
+        and is open-sourced on
+        <a
+          href="https://github.com/zoeblighton/affirmation-generator"
+          target="_blank"
+        >
+          GitHub</a
+        >
+        and is hosted on
+        <a
+          href="https://ai-daily-affirmation-generator.netlify.app/"
+          target="_blank"
+        >
+          Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
