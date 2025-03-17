@@ -44,6 +44,11 @@ header {
   color: #f9c23c;
   font-size: 35px;
 }
+form {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+}
 a:-webkit-any-link {
   color: #877255;
   cursor: pointer;
