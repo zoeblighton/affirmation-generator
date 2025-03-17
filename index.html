@@ -10,6 +10,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>AI Affirmation generator</title>
   </head>
   <body>
@@ -25,7 +27,7 @@
         </h1>
       </header>
       <main>
-        <form>
+        <form id="affirmation-generator-form">
           <input
             type="text"
             placeholder="Enter the topic or keywords here"
@@ -37,10 +39,7 @@
 
           <input type="submit" class="submit-button" />
         </form>
-        <div class="output">
-          Relax and enjoy life. <br />
-          Whatever I need to know is revealed to me at exactly the right time.
-        </div>
+        <div class="affirmation" id="affirmation"></div>
       </main>
       <footer>
         This AI project was coded by
