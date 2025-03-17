@@ -1,4 +1,51 @@
 body {
   background: #142132;
   color: #f7dcaf;
+  font-family: "Cookie", cursive;
+  font-weight: 100;
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+}
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+  max-width: 500px;
+  font-weight: 100;
+}
+.title-start {
+  text-align: center;
+  max-width: 500px;
+  color: #f7dcaf;
+  font-size: 30px;
+}
+.title-main {
+  text-align: center;
+  max-width: 500px;
+  color: #f9c23c;
+  font-size: 60px;
+}
+.title-end {
+  text-align: center;
+  max-width: 500px;
+  color: #f7dcaf;
+  font-size: 30px;
+}
+.title-emoji {
+  text-align: center;
+  max-width: 500px;
+  color: #f9c23c;
+  font-size: 35px;
+}
+a:-webkit-any-link {
+  color: #877255;
+  cursor: pointer;
+  text-decoration: underline;
 }
